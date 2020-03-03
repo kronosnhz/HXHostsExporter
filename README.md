@@ -6,8 +6,8 @@
 * Install `Requests Python Library` executing `py -m pip install requests` in your shell (I recommend PowerShell in Windows)
 
 ## How to run
-1. Open with a text editor the script `HXHostsExctractor.py` and set `hx_host `, `hx_port`, `username` and `password` variable values 
-1. Execute `py HXHostsExctractor.py` in a shell (I recommend PowerShell in Windows)
+1. Open with a text editor the script `HXHostsExtractor.py` and set `hx_host `, `hx_port`, `username` and `password` variable values 
+1. Execute `py HXHostsExtractor.py` in a shell (I recommend PowerShell in Windows)
 
 The script will create a new CSV file named `hx_all_hosts.csv` with all hosts in the platform.
 
