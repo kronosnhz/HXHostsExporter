@@ -2,7 +2,8 @@
  Extract programatically all hosts in Fireeye Endpoint Security Platform.
 
 ## Prerequisites
-Python 3 [Official Download](https://www.python.org/downloads/)
+* Python 3 [Official Download](https://www.python.org/downloads/)
+* Requests Python Library with `pip3 install requests`
 
 ## How to run
 1. Set `hx_host `, `hx_port`, `username` and `password` variable values in the script 
