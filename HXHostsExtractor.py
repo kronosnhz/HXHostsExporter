@@ -1,4 +1,5 @@
 import requests, json, csv, urllib3
+from msvcrt import getch
 urllib3.disable_warnings()
 
 hx_host = "https://[YOUR HX ADDRESS]"
@@ -50,3 +51,5 @@ else:
 
         print(f'Printed {line_count} lines.')
     print('Success!')
+print('Press any key to exit...')
+getch()
